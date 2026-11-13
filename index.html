@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Pavan — software developer and professional photographer.">
+<title>Pavan | Developer & Photographer</title>
+<style>
+:root{--bg:#090909;--panel:#121212;--gold:#d7b56d;--muted:#b7b1a5;--white:#f7f4ed;--line:#29251d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:#090909eF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0}.brand{font-weight:800;letter-spacing:2px;color:var(--gold)}.links{display:flex;gap:22px;font-size:13px;color:var(--muted)}.links a:hover{color:var(--gold)}
+.hero{min-height:78vh;display:grid;align-items:center;padding:80px 0;background:radial-gradient(ellipse at 80% 20%,#342a1738,transparent 45%)}
+.eyebrow{color:var(--gold);letter-spacing:3px;text-transform:uppercase;font-size:12px;font-weight:700}
+h1{font-size:clamp(42px,7vw,78px);line-height:1.06;margin:16px 0;letter-spacing:-2px}.gold{color:var(--gold)}
+.lead{max-width:680px;color:var(--muted);font-size:18px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 20px;border:1px solid var(--gold);border-radius:3px;font-weight:700;font-size:13px}.primary{background:var(--gold);color:#111}.btn:hover{transform:translateY(-2px)}
+section{padding:76px 0;border-top:1px solid var(--line)}h2{font-size:32px;margin:0 0 10px} .sub{color:var(--muted);margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);padding:24px;border-radius:8px}.card h3{margin:0 0 8px;color:var(--gold)}.card p,.card li{color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:9px}.tag{border:1px solid #51452e;padding:7px 11px;border-radius:30px;color:#e9d8b2;font-size:13px}
+.timeline{border-left:1px solid var(--gold);padding-left:22px;margin:18px 0}.item{margin-bottom:24px}.item strong{color:var(--white)}.item small{color:var(--gold)}
+.gallery-note{padding:26px;border:1px dashed #665332;border-radius:8px;color:var(--muted);background:#17140e}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact a{color:var(--gold);overflow-wrap:anywhere}
+footer{padding:28px 0;color:#8e887c;font-size:12px;border-top:1px solid var(--line)}
+@media(max-width:700px){.links{gap:11px;overflow:auto;max-width:65%;font-size:11px}.grid,.contact{grid-template-columns:1fr}.hero{min-height:65vh;padding:60px 0}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#home">PAVAN.</a><div class="links">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#work">Work</a><a href="#photography">Photography</a><a href="#contact">Contact</a>
+</div></div></nav>
+<header class="hero" id="home"><div class="wrap">
+<div class="eyebrow">Personal Portfolio · Developer & Photographer</div>
+<h1>Hi, I'm <span class="gold">Pavan.</span><br>Creating with code.<br>Capturing with vision.</h1>
+<p class="lead">A BCA graduate, aspiring software developer and professional photographer with an interest in technology, visual storytelling and entrepreneurship.</p>
+<div class="actions"><a class="btn primary" href="#work">Explore My Work</a><a class="btn" href="#contact">Get In Touch</a></div>
+</div></header>
+<main>
+<section id="about"><div class="wrap"><div class="eyebrow">01 / About</div><h2>About Me</h2><p class="sub">Curious by nature. Creative by passion. Driven to keep learning.</p>
+<div class="grid"><div class="card"><h3>Technology</h3><p>I completed my Bachelor of Computer Applications in 2026. My learning and project experience includes Python, web development, Flask, databases and building practical web applications.</p></div>
+<div class="card"><h3>Photography</h3><p>Photography is a professional creative pursuit. I have trained in photography and cinematography, and enjoy indoor, outdoor and product shoots, along with visual storytelling.</p></div></div>
+<p style="color:var(--muted);margin-top:22px">I also have an entrepreneurial mindset and an interest in building customer-focused businesses and digital experiences.</p>
+</div></section>
+<section id="skills"><div class="wrap"><div class="eyebrow">02 / Capabilities</div><h2>Technical Skills</h2><p class="sub">Tools and technologies I have worked with.</p>
+<div class="tags"><span class="tag">Python</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Flask</span><span class="tag">SQL</span><span class="tag">SQLite</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Web Development</span></div>
+<div class="grid" style="margin-top:22px"><div class="card"><h3>Development</h3><p>Frontend development, Python programming, Flask-based applications, database fundamentals and version control.</p></div><div class="card"><h3>Creative Production</h3><p>Indoor and outdoor photography, product photography, cinematography, camera operation and drone-based work.</p></div></div>
+</div></section>
+<section id="experience"><div class="wrap"><div class="eyebrow">03 / Background</div><h2>Education & Experience</h2>
+<div class="timeline">
+<div class="item"><small>2026</small><br><strong>Bachelor of Computer Applications (BCA)</strong><br><span style="color:var(--muted)">South East Asian (SEA) College of Science, Commerce & Arts</span></div>
+<div class="item"><small>INTERMEDIATE</small><br><strong>Sunku Usha Gowthami Memorial Junior College (SUGM)</strong></div>
+<div class="item"><small>SSC</small><br><strong>Vidyarthi EM High School</strong></div>
+<div class="item"><small>WEB DEVELOPMENT INTERNSHIP</small><br><strong>Zephyr Technologies and Solutions Pvt. Ltd.</strong><br><span style="color:var(--muted)">Internship experience in web development.</span></div>
+<div class="item"><small>PHOTOGRAPHY TRAINING</small><br><strong>FTIH, Hyderabad</strong><br><span style="color:var(--muted)">Professional photography course; experience across photography and cinematography.</span></div>
+</div></div></section>
+<section id="work"><div class="wrap"><div class="eyebrow">04 / Selected Projects</div><h2>Projects</h2><p class="sub">Academic and personal software projects.</p>
+<div class="grid">
+<div class="card"><h3>Legal Ease Summarizer</h3><p>AI-powered legal document analysis and summarization concept, designed to help users understand uploaded legal documents through clear summaries, key terms, parties, risks and important points.</p><p><strong>Stack:</strong> Python, Flask, HTML, CSS</p></div>
+<div class="card"><h3>Smart DocA Answer Retrieval System</h3><p>Academic document question-answering project focused on retrieving relevant information from documents and presenting useful answers.</p><p><strong>Focus:</strong> Document processing and information retrieval</p></div>
+</div></div></section>
+<section id="photography"><div class="wrap"><div class="eyebrow">05 / Creative Portfolio</div><h2>Photography & Cinematography</h2><p class="sub">Turning moments, products and ideas into visual stories.</p>
+<div class="grid">
+<div class="card"><h3>Photography Services</h3><ul><li>Indoor and outdoor photography</li><li>Product photography</li><li>Portrait and event coverage</li><li>Camera and equipment handling</li></ul></div>
+<div class="card"><h3>Production Skills</h3><ul><li>Cinematography</li><li>Creative framing and composition</li><li>Lighting awareness</li><li>Drone operation (as licensed)</li></ul></div>
+</div>
+<div class="gallery-note" style="margin-top:18px"><strong style="color:var(--gold)">Photography gallery</strong><br>Add your best 8–12 photographs here. Replace this panel with your own selected images before publishing.</div>
+<p style="color:var(--muted)">Instagram: <a class="gold" href="https://www.instagram.com/capturesof_pavan/" target="_blank" rel="noreferrer">@capturesof_pavan</a> · <a class="gold" href="https://www.instagram.com/bad_kido_/" target="_blank" rel="noreferrer">@bad_kido_</a></p>
+</div></section>
+<section id="contact"><div class="wrap"><div class="eyebrow">06 / Contact</div><h2>Let's Connect</h2><p class="sub">Open to entry-level opportunities, creative collaborations and interesting projects.</p>
+<div class="contact"><div class="card"><h3>Professional Interests</h3><p>Software Developer · Web Developer · IT Associate · Photographer · Cinematography</p></div><div class="card"><h3>Reach Me</h3><p>Email: <a href="mailto:YOUR_EMAIL@example.com">Add your email address</a><br>Phone: <a href="tel:+910000000000">Add your phone number</a><br>Location: Andhra Pradesh, India</p></div></div>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Pavan · Personal Portfolio. Built to bring technology and creativity together.</div></footer>
+</body></html>
